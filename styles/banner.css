@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 1.8em 1.5em;
+}
+
+.banner__imagem-sonia {
+    width: 18%;
+    border-radius: 50%;
+}
+
+.banner__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--grafite);
+}
+
+.banner__texto {
+    margin-top: 0.8em;
+    color: var(--cinza);
+    font-size: 14px;
+}
+
+.banner__conteudo {
+    margin-left: 1em;
+}

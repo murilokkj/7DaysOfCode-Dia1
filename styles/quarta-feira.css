@@ -1,0 +1,9 @@
+.quarta-feira {
+    margin: 1em;
+}
+.quarta-feira__titulo {
+    color: var(--grafite);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5em 0 1em 0;
+}

@@ -1,0 +1,22 @@
+@import url("/styles/banner.css");
+@import url("/styles/hoje.css");
+@import url("/styles/amanha.css");
+@import url("/styles/quarta-feira.css");
+
+:root {
+    --fundo: #f9f7fe;
+    --branco: #FFFFFF;
+    --grafite: #464646;
+    --cinza: #A3A3A3;
+    --laranja: #FFB050;
+    --azul: #4894FF;
+    --cinza-claro: #ededed;
+    --fonte-principal: "Montserrat";
+}
+
+body {
+    background-color: var(--fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

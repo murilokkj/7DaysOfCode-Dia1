@@ -1,0 +1,119 @@
+.hoje {
+    margin: 1em;
+}
+.hoje__titulo {
+    color: var(--grafite);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5em 0 1em 0;
+}
+
+.card-remoto {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba (0, 0 , 0, 0.25);
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.card-remoto__img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.card-remoto__titulo {
+    color: var(--grafite);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-remoto__container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5em;
+    border-bottom: 2px solid var(--cinza-claro);
+    padding: 1em;
+}
+
+.card-remoto__textos {
+    margin-left: 1em;
+}
+
+.card-remoto__consulta {
+    display: flex;
+    padding-top: 0.3em;
+    align-items: center;
+}
+
+.card-remoto__textoConsulta {
+    color: var(--cinza);
+    font-size: 12px;
+    padding-left: 0.7em;
+}
+
+.card-remoto__chat {
+    background-color: #F6F6F6;
+    padding: 0.8em 0.8em 0.6em 0.8em;
+    border-radius: 60%;
+    margin-left: 7em;
+}
+
+.card-remoto__container2 {
+    padding: 1em;
+}
+
+.card-remoto__container2-titulo {
+    color: var(--grafite);
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.card-remoto__botaoLaranja {
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1.5em 1.6em;
+    border-radius: 8px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 1.125em;
+}
+
+.card-remoto__botaoTransparente {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 1.5em 1.6em;
+    border-radius: 8px;
+    border: 2px solid var(--cinza-claro);
+    color: var(--grafite);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card-remoto__botoes {
+    display: flex;
+    justify-content: center;
+}
+
+/*SEGUNDO CARD*/
+
+.card-presencial {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba (0, 0 , 0, 0.25);
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.card-presencial__botaoAzul {
+    text-decoration: none;
+    background-color: var(--azul);
+    padding: 1.5em 8.2em;
+    border-radius: 8px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*TERCEIRO CARD*/
